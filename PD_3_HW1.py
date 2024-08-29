@@ -12,7 +12,7 @@ list_to_search = []
 def is_contains(string, list_to_search):
     b = []
     for i in range(len(list_to_search)):
-        if list_to_search[i].lower() in string.lower():
+        if string.lower() in list_to_search[i].lower():
             a = True
             b.append(a)
         else:
